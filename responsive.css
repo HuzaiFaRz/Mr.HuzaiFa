@@ -152,11 +152,10 @@
   }
 }
 @media (max-width: 767px) {
-  .offcanvas-header {
-    padding-left: 4rem;
-    padding-right: 4rem;
+  .offcanvas-header-content {
+    padding-left: 64px;
+    padding-right: 64px;
   }
-  
   .loader-box {
     display: none;
   }
@@ -218,9 +217,9 @@
 }
 
 @media (max-width: 550px) {
-  .offcanvas-header {
-    padding-left: 2rem;
-    padding-right: 2rem;
+  .offcanvas-header-content {
+    padding-left:32px;
+    padding-right:32px;
   }
   #Nav,
   header {
@@ -298,9 +297,9 @@
 @media (max-width: 300px) {
 
 
-  .offcanvas-header {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  .offcanvas-header-content {
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .portfolio-card-h6 {
     font-size: 13px;

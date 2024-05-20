@@ -72,7 +72,7 @@
 
       <header class="header" id="Header">
         <nav
-          class="navbar d-flex align-items-center"
+          class="navbar d-flex align-items-center animate__animated animate__fadeInTop"
           id="Nav"
         >
           <div class="container" id="NavContainer">
@@ -316,12 +316,14 @@
       <div
         class="offcanvas offcanvas-bottom"
         id="offcanvasBottom"
+        data-bs-backdrop="false" tabindex="-1"
         aria-labelledby="offcanvasBottom"
       >
         <div
-          class="offcanvas-header w-100 d-flex align-items-center justify-content-between"
+          class="offcanvas-header"
         >
-          <a href="index.html" class="navbar-brand px-3 py-2">
+        <div class="offcanvas-header-content w-100 d-flex align-items-center justify-content-between"> 
+             <a href="index.html" class="navbar-brand px-3 py-2">
             <div class="display-6">
               MH
               <i class="fa fa-circle" id="NavbarBrandIcon1"></i>
@@ -334,6 +336,8 @@
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></i>
+        </div>
+       
         </div>
         <div
           class="offcanvas-body d-flex flex-column w-100 justify-content-start align-items-center px-5 py-5"
@@ -490,7 +494,7 @@
         </div>
       </div>
 
-      <div class="page-1" id="MainPage">
+      <div class="animate__animated animate__fadeInRight page-1" id="MainPage">
         <section class="main-section">
           <div
             class="container d-flex justify-content-center align-items-start"
@@ -1621,13 +1625,30 @@
               <div
                 class="bottom-social-links d-flex flex-wrap justify-content-center align-items-center gap-3"
               >
-                <a href="https://www.facebook.com/profile.php?id=61556848674707" class="bottom-link" target="_blank">Facebook</a>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61556848674707"
+                  class="bottom-link"
+                  target="_blank"
+                  >Facebook</a
+                >
                 <span class="bottom-span">|</span>
-                <a href="https://www.linkedin.com/in/huzaifa-lakhani-1b4612297/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B9BX5Squ1QAS0I2WMdNnJiw%3D%3D" class="bottom-link" target="_blank">Linkedin</a>
+                <a
+                  href="https://www.linkedin.com/in/huzaifa-lakhani-1b4612297/overlay/about-this-profile/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B9BX5Squ1QAS0I2WMdNnJiw%3D%3D"
+                  class="bottom-link"
+                  target="_blank"
+                  >Linkedin</a
+                >
                 <span class="bottom-span">|</span>
-                <a href="https://github.com/HuzaiFaRz" target="_blank" class="bottom-link">Github</a>
+                <a
+                  href="https://github.com/HuzaiFaRz"
+                  target="_blank"
+                  class="bottom-link"
+                  >Github</a
+                >
                 <span class="bottom-span">|</span>
-                <a href="tel:+923147039174" target="_blank" class="bottom-link">Whatsapp</a>
+                <a href="tel:+923147039174" target="_blank" class="bottom-link"
+                  >Whatsapp</a
+                >
               </div>
             </div>
           </div>
