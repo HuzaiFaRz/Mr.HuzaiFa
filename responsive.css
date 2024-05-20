@@ -218,8 +218,8 @@
 
 @media (max-width: 550px) {
   .offcanvas-header-content {
-    padding-left:32px;
-    padding-right:32px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   #Nav,
   header {
@@ -295,8 +295,6 @@
   }
 }
 @media (max-width: 300px) {
-
-
   .offcanvas-header-content {
     padding-left: 16px;
     padding-right: 16px;
