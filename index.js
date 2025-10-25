@@ -1,3 +1,11 @@
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+lenis.on("scroll", (e) => {
+  console.log(e);
+});
+
 function autoMaticTypeJs() {
   var typed = new Typed(".main-span ", {
     typeSpeed: 100,
