@@ -169,3 +169,8 @@ function porTfolioBtns() {
   // }
 }
 porTfolioBtns();
+
+const date = new Date();
+document.querySelector(
+  "#copyright"
+).innerHTML = `Professional Portfolio © ${date.getFullYear()} Designed by HzF__Designer`;
